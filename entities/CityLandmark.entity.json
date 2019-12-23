@@ -1,0 +1,70 @@
+{
+  "info" : {
+    "title" : "CityLandmark",
+    "version" : "0.0.1",
+    "baseUri" : "https://www.opendataphilly.org/dataset/city-landmarks/"
+  },
+  "definitions" : {
+    "CityLandmark" : {
+      "primaryKey" : "ObjectID",
+      "required" : [ ],
+      "pii" : [ ],
+      "elementRangeIndex" : [ ],
+      "rangeIndex" : [ ],
+      "wordLexicon" : [ ],
+      "properties" : {
+        "ObjectID" : {
+          "datatype" : "int"
+        },
+        "Name" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        },
+        "Address" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        },
+        "FeatureType" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        },
+        "Subtype" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        },
+        "VanityName" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        },
+        "SecondaryName" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        },
+        "IsBuilding" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        },
+        "ParentName" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        },
+        "ParentType" : {
+          "datatype" : "string",
+          "collation" : "http://marklogic.com/collation/codepoint"
+        },
+        "Acreage" : {
+          "datatype" : "double"
+        },
+        "ParentAcreage" : {
+          "datatype" : "double"
+        },
+        "ShapeArea" : {
+          "datatype" : "double"
+        },
+        "ShapeLength" : {
+          "datatype" : "double"
+        }
+      }
+    }
+  }
+}
