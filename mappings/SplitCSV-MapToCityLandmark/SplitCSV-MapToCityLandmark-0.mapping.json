@@ -1,0 +1,54 @@
+{
+  "lang" : "zxx",
+  "name" : "SplitCSV-MapToCityLandmark",
+  "description" : "",
+  "version" : 0,
+  "targetEntityType" : "https://www.opendataphilly.org/dataset/city-landmarks/CityLandmark-0.0.1/CityLandmark",
+  "sourceContext" : "/",
+  "sourceURI" : "/csv/1.json",
+  "properties" : {
+    "FeatureType" : {
+      "sourcedFrom" : "FEAT_TYPE"
+    },
+    "Address" : {
+      "sourcedFrom" : "ADDRESS"
+    },
+    "ObjectID" : {
+      "sourcedFrom" : "OBJECTID"
+    },
+    "ParentName" : {
+      "sourcedFrom" : "PARENT_NAME"
+    },
+    "Name" : {
+      "sourcedFrom" : "NAME"
+    },
+    "Acreage" : {
+      "sourcedFrom" : "ACREAGE"
+    },
+    "ShapeLength" : {
+      "sourcedFrom" : "Shape__Length"
+    },
+    "SecondaryName" : {
+      "sourcedFrom" : "SECONDARY_NAME"
+    },
+    "ParentType" : {
+      "sourcedFrom" : "PARENT_TYPE"
+    },
+    "Subtype" : {
+      "sourcedFrom" : "SUB_TYPE"
+    },
+    "IsBuilding" : {
+      "sourcedFrom" : "BLDG"
+    },
+    "ParentAcreage" : {
+      "sourcedFrom" : "PARENT_ACREAGE"
+    },
+    "ShapeArea" : {
+      "sourcedFrom" : "Shape__Area"
+    },
+    "VanityName" : {
+      "sourcedFrom" : "VANITY_NAME"
+    }
+  },
+  "namespaces" : { }
+}
