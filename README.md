@@ -4,3 +4,9 @@ I found examples of using DHF ingest flows to split CSV documents on their way i
 
 1. Custom step to split the original CSV into individual JSON documents in the staging database
 2. Mapping step map those JSON documents onto an entity and write to the final database
+
+## Data
+
+I'm working with data from Philadelphia's OpenDataPhilly project, specifically [CSV data showing City Landmarks][data]. 
+
+[data]: https://www.opendataphilly.org/dataset/city-landmarks/resource/1104674f-6413-4076-97c3-a2e1f0558565
